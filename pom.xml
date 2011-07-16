@@ -1,7 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
-	>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.jsuereth</groupId>
 	<artifactId>scala-arm</artifactId>
@@ -25,7 +24,7 @@
 		</license>
 	</licenses>
 	<properties>
-		<scala.version>2.8.0-SNAPSHOT</scala.version>
+		<scala.version>2.8.1</scala.version>
 		<java.src.version>1.6</java.src.version>
 		<derby.version>10.5.3.0_1</derby.version>
 	</properties>
@@ -111,7 +110,7 @@
 			<plugin>
 				<groupId>org.scala-tools</groupId>
 				<artifactId>maven-scala-plugin</artifactId>
-                                <version>2.13.2-SNAPSHOT</version>
+        <version>2.15.2</version>
 				<executions>
 					<execution>
 						<goals>
